@@ -435,3 +435,125 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6681.045640 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(c6be6059c8c49154bbe4ef7dae5042ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(c6be6059c8c49154bbe4ef7dae5042ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16aae462ab75595d5daadb9100b9d952') in 0.038743 seconds 
+  Import took 0.079628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.913715 seconds.
+  path: Assets/Sprites/FootballPitch.png
+  artifactKey: Guid(cedbf5610e274604b8ccfc57f1513ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FootballPitch.png using Guid(cedbf5610e274604b8ccfc57f1513ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361af7cf482d1d3501e7746d7e4cd308') in 0.155319 seconds 
+  Import took 0.158511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.289577 seconds.
+  path: Assets/Sprites/FootballPitch.mat
+  artifactKey: Guid(92da23e214d572846b006d148c6002b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FootballPitch.mat using Guid(92da23e214d572846b006d148c6002b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3376e7488ac177ada7110effb2abfd3a') in 0.080241 seconds 
+  Import took 0.083277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.855645 seconds.
+  path: Assets/Sprites/Materials
+  artifactKey: Guid(5e20f8c77128dc64ea466834fe54cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials using Guid(5e20f8c77128dc64ea466834fe54cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e53e14d46eca45f5d80ced9691363d5') in 0.382297 seconds 
+  Import took 0.384994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/Materials/FootballPitch.mat
+  artifactKey: Guid(d6b0acf682ebce846b57b55690334deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials/FootballPitch.mat using Guid(d6b0acf682ebce846b57b55690334deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226bef3da5fd1b41d292d178f3e1f4e1') in 0.110172 seconds 
+  Import took 0.112552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.767463 seconds.
+  path: Assets/Sprites/FootballPitch.png
+  artifactKey: Guid(cedbf5610e274604b8ccfc57f1513ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FootballPitch.png using Guid(cedbf5610e274604b8ccfc57f1513ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6b6b8a357b7a18e522feea0dfce667') in 0.058566 seconds 
+  Import took 0.061821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.855642 seconds.
+  path: Assets/Sprites/FootballPitch.png
+  artifactKey: Guid(cedbf5610e274604b8ccfc57f1513ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FootballPitch.png using Guid(cedbf5610e274604b8ccfc57f1513ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5574c47efb0aabfe6270a8aef99cb2f5') in 0.036002 seconds 
+  Import took 0.039174 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.429 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.7 MB.
+System memory in use after: 71.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 3.189400 ms (FindLiveObjects: 0.154400 ms CreateObjectMapping: 0.046500 ms MarkObjects: 2.895500 ms  DeleteObjects: 0.091800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.135 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.7 MB.
+System memory in use after: 71.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 2.310200 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.091400 ms MarkObjects: 1.931500 ms  DeleteObjects: 0.088800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
