@@ -11,26 +11,24 @@ public class Slideshow : MonoBehaviour
     void Start()
     {
         rend = GetComponentInChildren<MeshRenderer>();
-        nextSlide();
-        nextSlide();
-        rend.material.mainTexture = images[currImageIndex];
+        DisplaySlide();
+        gameObject.SetActive(false);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    void nextSlide() {
+    public void NextSlide() {
         currImageIndex++;
         if (currImageIndex >= images.Length) {
             currImageIndex = 0;
         }
+        DisplaySlide();
     }
-    void previousSlide() {
+    public void PreviousSlide() {
         currImageIndex--;
-        if (currImageIndex <= 0) {
+        if (currImageIndex < 0) {
             currImageIndex = images.Length;
         }
+        DisplaySlide();
+    }
+    private void DisplaySlide() {
+        rend.material.mainTexture = images[currImageIndex];
     }
 }
