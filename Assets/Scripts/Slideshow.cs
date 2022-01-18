@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,21 +15,26 @@ public class Slideshow : MonoBehaviour
         DisplaySlide();
         gameObject.SetActive(false);
     }
-    public void NextSlide() {
+    public void NextSlide()
+    {
         currImageIndex++;
-        if (currImageIndex >= images.Length) {
+        if (currImageIndex >= images.Length)
+        {
             currImageIndex = 0;
         }
         DisplaySlide();
     }
-    public void PreviousSlide() {
+    public void PreviousSlide()
+    {
         currImageIndex--;
-        if (currImageIndex < 0) {
+        if (currImageIndex < 0)
+        {
             currImageIndex = images.Length;
         }
         DisplaySlide();
     }
-    private void DisplaySlide() {
+    private void DisplaySlide()
+    {
         rend.material.mainTexture = images[currImageIndex];
     }
 }

@@ -6,8 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/EducationalScene.unity
-    guid: 687ab2a9a205f7b49925b85d756b744c
+    path: Assets/Scenes/SlideShowScene.unity
+    guid: 5c75d7ea716482946a87bd5cfbec347e
+  - enabled: 1
+    path: Assets/Scenes/FootballStadium.unity
+    guid: 7df8c232188c7bf458f11389a44d2b04
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 91fcab5670e1f1349bc5efc9a3bccf5e, type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: ed92c8d8b860026498c37821cb4a31a9, type: 2}
