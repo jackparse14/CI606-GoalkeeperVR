@@ -9,9 +9,11 @@ public class NavigationButton : MonoBehaviour
     private Material enterMat;
     public Slideshow ss;
     private Renderer rend;
+    private SoundManager sm;
     [SerializeField] private bool isNextButton;
     void Start()
     {
+        sm = FindObjectOfType<SoundManager>();
         rend = GetComponent<Renderer>();
         exitMat = rend.material;
     }
@@ -25,6 +27,7 @@ public class NavigationButton : MonoBehaviour
         else {
             ss.PreviousSlide();
         }
+        sm.PlayClick();
     }
     public void OnPointerExit()
     {

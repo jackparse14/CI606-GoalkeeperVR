@@ -8,8 +8,13 @@ public class Football : MonoBehaviour
     private float shotPowerForward;
     private float shotPowerUp;
     private float shotPowerLeftRight;
+    private AudioSource audioSrc;
+    [SerializeField]
+    private AudioClip[] ballKicks;
+    private int ballKicksIndex = 0;
     private void Start()
     {
+        audioSrc = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
         shotPowerForward = CreateRand(12f,15f);
         shotPowerUp = CreateRand(4f,6.5f);
@@ -34,11 +39,20 @@ public class Football : MonoBehaviour
         return randNum;
     }
 
+    private void playBallKick() {
+        audioSrc.PlayOneShot(ballKicks[ballKicksIndex]);
+        ballKicksIndex++;
+        if (ballKicksIndex > ballKicks.Length) {
+            ballKicksIndex = 0;
+        }
+    }
+
     IEnumerator Shoot() {
         yield return new WaitForSeconds(3f);
         rb.AddForce(transform.forward * shotPowerForward, ForceMode.Impulse);
         rb.AddForce(transform.up * shotPowerUp, ForceMode.Impulse);
         rb.AddForce(Vector3.left * shotPowerLeftRight, ForceMode.Impulse);
+        playBallKick();
     }
     IEnumerator DespawnSelf() {
         yield return new WaitForSeconds(3f);

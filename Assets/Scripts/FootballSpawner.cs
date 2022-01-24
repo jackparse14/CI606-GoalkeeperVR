@@ -10,6 +10,6 @@ public class FootballSpawner : MonoBehaviour
         SpawnFootball();
     }
     public void SpawnFootball() { 
-            Instantiate(footballPrefab);
+        Instantiate(footballPrefab);
     }
 }

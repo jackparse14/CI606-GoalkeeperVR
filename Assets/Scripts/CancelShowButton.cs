@@ -10,6 +10,11 @@ public class CancelShowButton : MonoBehaviour
     private GameObject ss;
     [SerializeField]
     private bool isCancelButton;
+    private SoundManager sm;
+    private void Start()
+    {
+        sm = FindObjectOfType<SoundManager>();
+    }
     public void OnPointerEnter()
     {
         if (isCancelButton)
@@ -22,7 +27,7 @@ public class CancelShowButton : MonoBehaviour
             slideMenu.SetActive(false);
             ss.SetActive(true);
         }
-
+        sm.PlayClick();
     }
 }
 
